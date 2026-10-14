@@ -1,5 +1,5 @@
 ---
-name: geo-audit
+name: ds_geo-audit
 description: "GEO SEO аудит для AI-поиска. Use when geo, seo, URL."
 version: "1.7.0"
 author: "Victor Zaitsev"

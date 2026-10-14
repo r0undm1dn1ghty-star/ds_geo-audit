@@ -1,4 +1,6 @@
-# GEO-аудит: увидит ли ChatGPT твой сайт
+# ds_geo-audit
+
+**GEO-аудит: увидит ли ChatGPT твой сайт**
 
 <div align="center">
 <img src="assets/banner.svg" alt="Discovery System — GEO Audit — 92 правила, score 0–100" width="100%">
@@ -7,6 +9,20 @@
 Если ChatGPT, Perplexity и Gemini не видят твой сайт — они его не процитируют. Этот скилл проверяет 92 правила технической готовности и даёт score 0-100 за 10 минут. Score — это readiness proxy, а не вероятность цитирования.
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue) ![v1.7.0](https://img.shields.io/badge/version-1.7.0-green) ![92 rules](https://img.shields.io/badge/rules-92-orange)
+
+## Установка и использование
+
+Скилл ставится копированием папки (или `SKILL.md`) в `.claude/skills/` / `.hermes/skills/` — и живёт под именем **`ds_geo-audit`**. В чате агенту достаточно сказать: «запусти ds_geo-audit для …» — имя уникально и не конфликтует с чужими скиллами.
+
+```bash
+# вариант 1 — клон репо целиком
+git clone https://github.com/r0undm1dn1ghty-star/geo-audit-skill.git && cp -r geo-audit-skill/.claude/skills/* ~/.claude/skills/ 2>/dev/null || cp geo-audit-skill/SKILL.md ~/.claude/skills/ds_geo-audit/SKILL.md
+
+# вариант 2 — только SKILL.md (у кого он есть в корне)
+cp geo-audit-skill/SKILL.md ~/.claude/skills/ds_geo-audit/SKILL.md
+```
+
+Все скиллы Discovery System — с префиксом **`ds_`**: `ds_pnl-check`, `ds_spiral-maturity`, `ds_geo-audit`, `ds_market-evidence`, `ds_warm-lead-parser`, `ds_content-radar`. Комплект и связка — [discovery-system.ru](https://discovery-system.ru).
 
 ## Quick Start
 

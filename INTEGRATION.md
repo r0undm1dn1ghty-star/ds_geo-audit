@@ -97,7 +97,7 @@ result = skillkit.run({"text": "..."})     # чистый dict
 ```json
 {
   "mcpServers": {
-    "geo-audit": { "command": "python", "args": ["/абсолютный/путь/integrations/mcp_server.py"] }
+    "ds_geo-audit": { "command": "python", "args": ["/абсолютный/путь/integrations/mcp_server.py"] }
   }
 }
 ```
