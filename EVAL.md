@@ -47,7 +47,7 @@
 ## Проверка
 
 ```bash
-git clone https://github.com/r0undm1dn1ghty-star/geo-audit-skill && cd geo-audit-skill
+git clone https://github.com/r0undm1dn1ghty-star/ds_geo-audit && cd ds_geo-audit
 python integrations/kit/skillkit.py --json --input \
   '{"html":"<html><head><title>Сбер</title></head><body><div id=app></div></body></html>"}'
 # -> score 0, grade E, все 10 правил "не наблюдаю"

@@ -11,6 +11,6 @@
 - [References](./references/): 6 JSON-LD templates (Organization, Person, Article, LocalBusiness, Product, SaaS)
 
 ## Links
-- [GitHub Repository](https://github.com/r0undm1dn1ghty-star/geo-audit-skill)
+- [GitHub Repository](https://github.com/r0undm1dn1ghty-star/ds_geo-audit)
 - [Discovery System](https://discovery-system.ru)
 - [Telegram](https://t.me/discoverysystem)

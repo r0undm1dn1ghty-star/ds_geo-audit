@@ -11,4 +11,4 @@
 ## Links
 
 - Telegram: https://t.me/discoverysystem
-- GitHub: https://github.com/r0undm1dn1ghty-star/geo-audit-skill
+- GitHub: https://github.com/r0undm1dn1ghty-star/ds_geo-audit

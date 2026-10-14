@@ -16,7 +16,7 @@
 
 ```bash
 # вариант 1 — клон репо целиком
-git clone https://github.com/r0undm1dn1ghty-star/geo-audit-skill.git && cp -r geo-audit-skill/.claude/skills/* ~/.claude/skills/ 2>/dev/null || cp geo-audit-skill/SKILL.md ~/.claude/skills/ds_geo-audit/SKILL.md
+git clone https://github.com/r0undm1dn1ghty-star/ds_geo-audit.git && cp -r geo-audit-skill/.claude/skills/* ~/.claude/skills/ 2>/dev/null || cp geo-audit-skill/SKILL.md ~/.claude/skills/ds_geo-audit/SKILL.md
 
 # вариант 2 — только SKILL.md (у кого он есть в корне)
 cp geo-audit-skill/SKILL.md ~/.claude/skills/ds_geo-audit/SKILL.md

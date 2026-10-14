@@ -34,8 +34,8 @@
 ## Как воспроизвести
 
 ```bash
-git clone https://github.com/r0undm1dn1ghty-star/geo-audit-skill
-cd geo-audit-skill
+git clone https://github.com/r0undm1dn1ghty-star/ds_geo-audit
+cd ds_geo-audit
 echo '{"html":"<html><head><title>X</title></head><body><div id=app></div></body></html>"}' \
   | python integrations/kit/skillkit.py --json
 ```
