@@ -1,5 +1,9 @@
 # GEO-аудит: увидит ли ChatGPT твой сайт
 
+<div align="center">
+<img src="assets/banner.svg" alt="Discovery System — GEO Audit — 92 правила, score 0–100" width="100%">
+</div>
+
 Если ChatGPT, Perplexity и Gemini не видят твой сайт — они его не процитируют. Этот скилл проверяет 92 правила технической готовности и даёт score 0-100 за 10 минут. Score — это readiness proxy, а не вероятность цитирования.
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue) ![v1.7.0](https://img.shields.io/badge/version-1.7.0-green) ![92 rules](https://img.shields.io/badge/rules-92-orange)
@@ -19,7 +23,7 @@
 
 > **GEO-SEO Audit Skill** by Victor Zaitsev / Discovery System
 >
-> The most comprehensive open-source AEO + GEO audit methodology for AI search visibility — 92 linter rules, 6 intelligence dimensions, 7 AI search engine spec sheets, 22 research-backed data points, framework-specific fix patterns, and a full execution pipeline.
+> An open-source AEO + GEO audit methodology for AI search visibility — 92 linter rules, 6 intelligence dimensions, 7 AI search engine spec sheets, 22 research-backed data points, framework-specific fix patterns, and a full execution pipeline.
 
 ## What this does
 
